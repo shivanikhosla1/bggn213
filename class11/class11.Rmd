@@ -1,6 +1,6 @@
 ---
 title: "Class 11"
-output: github_document
+output: pdf_document
 ---
 
 ```{r}
