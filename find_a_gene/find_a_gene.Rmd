@@ -1,0 +1,50 @@
+---
+title: "Find a Gene"
+author: 'Shivani Khosla (PID: A59010433)'
+date: "11/23/2021"
+output: html_document
+---
+```{r}
+library(bio3d)
+```
+
+```{r}
+my_file <- read.fasta("muscle-I20211123-024633-0350-88750680-p2m.clw.fst")
+```
+
+```{r}
+my_matrix <- seqidentity(my_file)
+```
+
+```{r}
+my_heatmap <- heatmap(my_matrix, margins = c(12,12))
+my_heatmap
+```
+```{r}
+consensus_seq <- consensus(my_file)
+my_seq <- consensus_seq$seq
+```
+
+```{r}
+new_seq <- noquote(my_seq)
+print(new_seq)
+```
+
+```{r}
+blast.pdb(my_seq)
+```
+```{r}
+x_file <- read.fasta("example.clw.fst")
+```
+
+```{r}
+x_matrix <- seqidentity(x_file)
+```
+
+
+```{r}
+xconsensus_seq <- consensus(x_file)
+x_seq <- xconsensus_seq$seq
+noquote(x_seq)
+```
+
