@@ -1,3 +1,9 @@
+#' ---
+#' title: "Data Visualization"
+#' output: github_document
+#' ---
+
+
 # Class 05: Data Visualization
 
 # learning to use ggplot2
