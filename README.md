@@ -4,7 +4,7 @@ Bioinformatics class at UC San Diego Fall 2021
 
 ## Contents: 
 
-- [04. Introduction to R]
+- [04. Introduction to R](https://github.com/shivanikhosla1/bggn213/blob/main/class04/class04.md)
 - [05. Data visualization with ggplot2](https://github.com/shivanikhosla1/bggn213/blob/main/class05/class05.md)
 - [06. R functions](https://github.com/shivanikhosla1/bggn213/blob/main/class06/class06.Rmd)
 - [07. Hands-on with Git & GitHub]
