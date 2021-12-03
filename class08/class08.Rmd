@@ -2,9 +2,7 @@
 title: "Machine Learning 1"
 author: 'Shivani Khosla (PID: A59010433)'
 date: "10/22/2021"
-output:
-  pdf_document: default
-  html_document: default
+output: github_document
 ---
 
 # Clustering methods
