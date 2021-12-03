@@ -1,5 +1,14 @@
-# bggn213
+# Bioinformatics Portfolio
 
 Bioinformatics class at UC San Diego Fall 2021
 
-Here is line 5
+## Contents: 
+
+- 04. Introduction to R [source](https://github.com/shivanikhosla1/bggn213/blob/main/class04/class04.Rproj)
+- 05. Data visualization with ggplot2
+- 06. R functions
+- 07. 
+- 08. 
+- 09. 
+- 10. 
+- 11. 
