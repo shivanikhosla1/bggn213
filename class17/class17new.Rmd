@@ -2,9 +2,7 @@
 title: "class 17 new"
 author: 'Shivani Khosla (PID: A59010433)'
 date: "11/28/2021"
-output:
-  html_document: default
-  pdf_document: default
+output: github_document
 ---
 ```{r}
 # Import vaccination data
