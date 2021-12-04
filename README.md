@@ -10,7 +10,7 @@ Bioinformatics class at UC San Diego Fall 2021
 - [08. Introduction to machine learning for Bioinformatics](https://github.com/shivanikhosla1/bggn213/blob/main/class08/class08.md)
 - [09. Unsupervised Learning Mini-Project](https://github.com/shivanikhosla1/bggn213/blob/main/class09_mini_project/class09miniproject.md)
 - [10. Halloween Candy Analysis](https://github.com/shivanikhosla1/bggn213/blob/main/class10/class10.md)
-- [11. Structural Bioinformatics]
+- [11. Structural Bioinformatics](https://github.com/shivanikhosla1/bggn213/blob/main/class11/class11.md)
 - [12. Bioinformatics in structure prediction and design - Focus on new AlphaFold2]
 - [15. Transcriptomics and the analysis of RNA-Seq data]
 - [16. RNA-Seq analysis mini-project]
