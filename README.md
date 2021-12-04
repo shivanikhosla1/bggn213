@@ -14,4 +14,4 @@ Bioinformatics class at UC San Diego Fall 2021
 - [15. Transcriptomics and the analysis of RNA-Seq data](https://github.com/shivanikhosla1/bggn213/blob/main/class15/class15.md)
 - [16. RNA-Seq analysis mini-project](https://github.com/shivanikhosla1/bggn213/blob/main/class16/class16.md)
 - [17. Vaccination rate mini project](https://github.com/shivanikhosla1/bggn213/blob/main/class17/class17new.md)
-- [19. Genome informatics]
+- [19. Genome informatics](https://github.com/shivanikhosla1/bggn213/blob/main/class19/class19.md)
