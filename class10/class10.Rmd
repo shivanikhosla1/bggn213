@@ -2,9 +2,7 @@
 title: "Class 10"
 author: 'Shivani Khosla (PID: A59010433)'
 date: "10/29/2021"
-output:
-  pdf_document: 
-    latex_engine: xelatex
+output: github_document
 ---
 ```{r}
 candy_file <- "https://raw.githubusercontent.com/fivethirtyeight/data/master/candy-power-ranking/candy-data.csv"
