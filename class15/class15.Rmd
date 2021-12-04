@@ -2,9 +2,7 @@
 title: "class15"
 author: 'Shivani Khosla (PID: A59010433)'
 date: "11/17/2021"
-output:
-  pdf_document: default
-  html_document: default
+output: github_document
 ---
 
 Background
