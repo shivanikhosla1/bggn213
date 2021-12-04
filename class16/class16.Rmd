@@ -2,11 +2,8 @@
 title: "class16"
 author: 'Shivani Khosla (PID: A59010433)'
 date: "11/19/2021"
-output:
-  pdf_document: default
-  html_document: default
+output: github_document
 ---
-
 # steps of analysis
 1. data import    
   countdata
