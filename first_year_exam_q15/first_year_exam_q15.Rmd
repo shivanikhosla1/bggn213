@@ -5,23 +5,30 @@ date: '2022-07-15'
 output: pdf_document
 ---
 
-# import data
+## importing data
 ```{r}
 variants_data <- read.csv('covid19_variants.csv')
 variants_data
 ```
+## selecting all columns except "Total" and "Other" since these are not shown in the plot we are instructed to make
 ```{r}
 no_total_and_other <- variants_data[variants_data$variant_name != "Total" & variants_data$variant_name != "Other",]
 ```
 
 
-# call ggplot2 from library to use the package
+## call ggplot2 from library to use the package for creating the graph
 ```{r}
 library(ggplot2)
 ```
 
+## use the ggplot function and subfunctions to create the graph (details explained in comments below)
 ```{r}
-ggplot(data=no_total_and_other, aes(as.Date(date), percentage, color=variant_name)) + 
-  geom_line()
+ggplot(data=no_total_and_other, aes(x=as.Date(date), y=percentage, color=variant_name)) + # tell ggplot what data to us; also specify date is on the x-axis (converted from character to date format) and percentage is on  y-axis; color/group by variant
+  geom_line() + # making a line graph/time series
+  scale_x_date(date_labels = "%b %Y", date_breaks = "1 month") + # change date format to month/Year (e.g. Mar 2022)
+  theme(axis.text.x=element_text(angle = 60, hjust = 1, vjust = 1), legend.title = element_blank()) + # set x-axis tick labels (dates) at an angle and re-position for easier reading; also remove title from variant legend
+  xlab(NULL) + # remove x-axis label
+  ylab("Percentage of sequenced specimens") + # change y-axis label
+  ggtitle("Covid-19 Variants in California") # add graph title
 ```
 
