@@ -5,3 +5,7 @@ date: '2022-07-15'
 output: pdf_document
 ---
 
+```{r}
+read.csv('covid19_variants.csv')
+```
+
