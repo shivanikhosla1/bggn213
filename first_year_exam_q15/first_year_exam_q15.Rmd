@@ -29,6 +29,6 @@ ggplot(data=no_total_and_other, aes(x=as.Date(date), y=percentage, color=variant
   theme(axis.text.x=element_text(angle = 60, hjust = 1, vjust = 1), legend.title = element_blank()) + # set x-axis tick labels (dates) at an angle and re-position for easier reading; also remove title from variant legend
   xlab(NULL) + # remove x-axis label
   ylab("Percentage of sequenced specimens") + # change y-axis label
-  ggtitle("Covid-19 Variants in California") # add graph title
+  ggtitle("Covid-19 Variants in California") # add graph title 
 ```
 
