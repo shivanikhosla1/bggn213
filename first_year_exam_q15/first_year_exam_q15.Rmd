@@ -5,10 +5,10 @@ date: '2022-07-15'
 output: pdf_document
 ---
 
-## importing data
+## importing data and viewing the first few rows
 ```{r}
 variants_data <- read.csv('covid19_variants.csv')
-variants_data
+head(variants_data)
 ```
 ## selecting all columns except "Total" and "Other" since these are not shown in the plot we are instructed to make
 ```{r}
