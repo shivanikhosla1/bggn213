@@ -5,7 +5,23 @@ date: '2022-07-15'
 output: pdf_document
 ---
 
+# import data
 ```{r}
-read.csv('covid19_variants.csv')
+variants_data <- read.csv('covid19_variants.csv')
+variants_data
+```
+```{r}
+no_total_and_other <- variants_data[variants_data$variant_name != "Total" & variants_data$variant_name != "Other",]
+```
+
+
+# call ggplot2 from library to use the package
+```{r}
+library(ggplot2)
+```
+
+```{r}
+ggplot(data=no_total_and_other, aes(as.Date(date), percentage, color=variant_name)) + 
+  geom_line()
 ```
 
